@@ -10,6 +10,10 @@
 
 n = int(input('введите число: '))
 i = 1
+count = 3
+if n < 0:
+    print(-1)
+
 fibonachi[0] = 0
 fibonachi[1] = 1
 while n >= fibonachi:
